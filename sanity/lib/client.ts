@@ -8,3 +8,17 @@ export const client = createClient({
   projectId,
   useCdn,
 })
+
+/*
+
+qroq usage:\
+
+e.g: *[
+
+
+]{}
+ * -> everything from dataset
+ [] -> filter down what we want to query for
+ {} -> projection, define what to pull out
+
+*/
