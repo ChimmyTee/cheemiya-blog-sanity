@@ -4,7 +4,7 @@ import { getFoodReviews } from '@/sanity/lib/sanity-utils'
 export default async function Home() {
   const foodReviews = await getFoodReviews();
   return (
-    <div>
+    <div className='max-w-5xl mx-auto'>
       {
         foodReviews.map((foodReview) => (
           <div key={foodReview._id}>{foodReview.name}{foodReview.image}</div>
