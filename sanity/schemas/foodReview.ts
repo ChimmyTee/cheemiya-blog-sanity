@@ -22,25 +22,23 @@ const food = {
       fields: [
         {
           name: "alt",
-          title: 'Alt',
-          type: 'string'
+          title: "Alt",
+          type: "string",
         },
       ],
     },
     {
-        name: 'url',
-        title: 'URL',
-        type: 'url'
+      name: "url",
+      title: "URL",
+      type: "url",
     },
     {
-        name: 'content',
-        title: 'Content',
-        type: 'array',
-        of: [{ type: "block" },  { type: 'image'}]
-    }
+      name: "content",
+      title: "Content",
+      type: "array",
+      of: [{ type: "block" }, { type: "image" }],
+    },
   ],
 };
 
 export default food;
-
-
