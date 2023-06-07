@@ -1,4 +1,4 @@
-const food = {
+const foodReview = {
   name: "foodReview",
   title: "Food Review",
   type: "document",
@@ -41,4 +41,4 @@ const food = {
   ],
 };
 
-export default food;
+export default foodReview;
